@@ -133,7 +133,7 @@ public class main {
         transaksiEntity.setJumlahPesanan(input.nextInt());
 
         TransaksiContoller transaksiController = new TransaksiContoller();
-        transaksiController.insertTransaksi(transaksiEntity.getTglPesan(),transaksiEntity.getTotalPembayaran(),transaksiEntity.getJum   lahPesanan());
+        transaksiController.insertTransaksi(transaksiEntity.getTglPesan(),transaksiEntity.getTotalPembayaran(),transaksiEntity.getJumlahPesanan());
     }
 
     private static void viewMakanan() {
